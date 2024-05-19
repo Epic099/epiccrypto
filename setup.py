@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
 name='epiccrypto',
-version='0.1.0',
+version='0.1.2.9.1',
 author='Epic099',
 author_email='',
 description='Encryption is cool',
@@ -12,4 +12,7 @@ classifiers=[
 'Operating System :: OS Independent',
 ],
 python_requires='>=3.6',
+install_requires=[
+    "epicfilemanager"   
+]
 )
